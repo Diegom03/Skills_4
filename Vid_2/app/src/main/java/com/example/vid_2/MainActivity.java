@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent miIntent = new Intent(MainActivity.this, MensajeActivity.class);
 
                 Bundle miBundle = new Bundle();
-                miBundle.putString("nombre", addName.getText().toString());
+                // miBundle.putString("nombre", addName.getText().toString());
 
                 miIntent.putExtras(miBundle);
 
